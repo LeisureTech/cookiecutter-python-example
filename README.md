@@ -12,18 +12,23 @@ A Cookiecutterr Python Example
 
 ----
 ## Project Structure <a name="structure"></a>
-    ├── src  # source folder
+    cookiecutter_python_example
+    ├── src/  # source folder
         ├── main.py  # python script
+        ├── tests/
+            ├── functional/
+            ├── integration/
+            ├── unit/
+            └── pytest.ini
         ├── Dockerfile
-        ├── pytest.ini
         └── requirements.txt
-    ├── .template
+    ├── .template/
         ├── template_tags.json
-    ├── .github
+    ├── .github/
         ├── pytest.yml
-    ├── .circleci
+    ├── .circleci/
         ├── config.yml
-    ├── docs
+    ├── docs/
         ├── AUTHORS.md  
     ├── .gitignore
     ├── .pre-commit-config.yaml
