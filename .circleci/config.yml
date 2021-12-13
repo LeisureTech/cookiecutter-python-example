@@ -31,7 +31,7 @@ jobs:
       - checkout
       - python/install-packages:
           pkg-manager: pip
-          app-dir: ~/src  # If you're requirements.txt isn't in the root directory.
+          app-dir: ~/LeisureTech/cookiecutter-python-example/src
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
