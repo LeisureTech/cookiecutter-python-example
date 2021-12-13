@@ -31,7 +31,7 @@ jobs:
       - checkout
       - python/install-packages:
           pkg-manager: pip
-          app-dir: ~/cookiecutter-python-example
+          app-dir: ~/cookiecutter_python_example/src
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
